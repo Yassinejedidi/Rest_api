@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
     res.json({ "message": "yassine rest-api" });
 });
 
-require('./app/routes/admin.routes.js')(app);
+
 require('./app/routes/client.routes.js')(app);
 
 
